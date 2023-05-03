@@ -1,0 +1,27 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mssql": "^9.1.1",
+    "nodemon": "^2.0.22",
+    "tedious": "^16.0.0"
+  }
+}
